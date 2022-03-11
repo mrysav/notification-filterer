@@ -3,7 +3,7 @@ name: Filter Notifications
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: '0 * * * *' 
+    - cron: '*/5 * * * *' 
   workflow_dispatch:
 
 jobs:
